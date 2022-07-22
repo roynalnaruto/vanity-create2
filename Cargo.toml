@@ -1,0 +1,13 @@
+[package]
+name = "vanity-create2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+ethers-core = "0.14"
+ethers-solc = { version = "0.14", features = ["svm-solc"] }
+hex = "0.4"
+owo-colors = "3.4"
+rand = "0.8"
+structopt = "0.3"
